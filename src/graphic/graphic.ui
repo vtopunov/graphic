@@ -39,18 +39,12 @@
     </layout>
    </item>
    <item>
-    <widget class="GraphicWidget" name="graphic">
+    <widget class="GraphicWidget" name="graphic" native="true">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
      </property>
     </widget>
    </item>
@@ -60,7 +54,7 @@
  <customwidgets>
   <customwidget>
    <class>GraphicWidget</class>
-   <extends>QFrame</extends>
+   <extends>QWidget</extends>
    <header>graphicwidget.h</header>
    <container>1</container>
   </customwidget>
