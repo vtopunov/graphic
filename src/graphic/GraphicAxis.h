@@ -26,7 +26,6 @@ struct y_axis_type_tag {};
 inline const double* garray(const GraphicLine& ln, x_axis_type_tag) { return ln.x; }
 inline const double* garray(const GraphicLine& ln, y_axis_type_tag) { return ln.y; }
 
-
 inline limits unilimits(const limits& lim, x_axis_type_tag ) { return lim; }
 inline limits unilimits(const limits& lim, y_axis_type_tag ) { return lim.inv(); }
 
