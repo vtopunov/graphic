@@ -100,4 +100,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\siggen\.gitignore">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\siggen\LICENSE">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\siggen\readme">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
